@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Suppression des doublons de scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <title>Momo Prince Koudougnon</title>
+</head>
+<body>
+    
+    <header>
+        <div class="wrapper container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <h1 class="navbar-brand mb-0">KMPJ<span class="orange">.</span></h1>
+                <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#main-image">ACCUEIL</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#steps">A PROPOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#icones">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">LANGUES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <section id="main-image">
+        <div class="wrapper">
+            <h2>Salut, je suis<br> <strong>Momo Prince</strong></h2>
+            <span contenteditable="true">Analyste sécurité / Développeur Full Stack</span>
+            <div class="cta-buttons">
+                <a href="#" class="bouton-1">MES TRAVAUX</a>
+                <a href="#contact" class="bouton-2">EMBAUCHEZ MOI</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="steps">
+        <div class="wrapper">
+            <h3><u>A Propos De moi</u></h3>
+            <div class="about-content">
+                <div class="about-text">
+                    <h4>Pourquoi m'embaucher pour votre prochain projet ?</h4>
+                    <p>Honnêtement, je possède toutes les compétences et l'expérience que vous recherchez. Je suis assez confiant que je suis le meilleur candidat pour ce poste. Ce ne sont pas seulement mes antécédents dans les projets passés, mais aussi mes compétences relationnelles, qui seront applicables dans ce poste.</p>
+                    <p>D'un autre côté, je suis une personne motivée et j'essaie de dépasser les attentes de mon supérieur avec un travail de haute qualité. Étant un apprenant rapide, je récupère rapidement des connaissances commerciales liées à mon projet. Enfin, je voudrais ajouter que je travaille aussi bien en tant que contributeur individuel qu'en tant que membre d'une équipe. Collectivement, toutes ces compétences réunies font de moi un ensemble complet pour ce travail.</p>
+                    <a href="#" class="cv-button">Télécharger CV</a>
+                </div>
+                <img src="sites-perso/p32.jpg" alt="Profile picture">
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="wrapper">
+            <h3>Mes Compétences</h3>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h5>PROGRAMMATION WEB</h5>
+                    <p>Fait référence à l'écriture, au balisage et au codage impliqués dans le développement Web, qui comprend le contenu Web, les scripts client et serveur Web et la sécurité du réseau.</p>
+                </div>
+                <div class="service-item">
+                    <h5>RESEAU INFORMATIQUE</h5>
+                    <p>La mise en relation d'au moins deux systèmes informatiques au moyen d'un câble ou sans fil, par liaison radio.</p>
+                </div>
+                <div class="service-item">
+                    <h5>SECURITE WEB</h5>
+                    <p>Empêcher et surveiller l'accès non autorisé, l'utilisation abusive, la modification ou le refus d'un réseau informatique et des ressources accessibles au réseau.</p>
+                </div>
+                <div class="service-item">
+                    <h5>Aspect Visuel</h5>
+                    <p>Façonner et améliorer l'expérience utilisateur en considérant les effets des illustrations, de la photographie, de la typographie, de l'espace, des mises en page et de la couleur sur la convivialité des produits et sur leur attrait esthétique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="icones">
+        <div class="wrapper">
+            <h2>Mes Services</h2>
+            <div class="services-grid">
+                <div class="service-item" id="icone1">
+                    
+                    <h5><i class="bi bi-laptop"></i> Application web/Mobile<i class="bi bi-phone"></i></h5>
+                    <p>Je crée des applications web et mobiles adaptées à vos besoins et utilisables sur toutes les plateformes (iOS-Android) en utilisant les dernières technologies.</p>
+                </div>
+                <div class="service-item" id="icone2">
+                    <h5><i class="fas fa-network-wired"></i> Réseautage</h5>
+                    <p>Je mets en place une architecture réseau adéquate et flexible selon les besoins de mes clients. Ainsi je crée une liaison sûre entre tous les utilisateurs du réseau tout en garantissant la disponibilité de tous les équipements réseaux.</p>
+                </div>
+                <div class="service-item" id="icone3">
+                    <h5><i class="fas fa-shield-alt"></i> Cybersécurité</h5>
+                    <p>Grâce à un pentesting précis j'analyse le réseau complet de l'entreprise pour détecter les vulnérabilités afin de définir une politique de sécurité efficace qui garantira la Confidentialité, l'Intégrité et la disponibilité de tout le système d'information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="part4">
+    <div class="wrapper">
+        <div class="skills-content">
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="icones/website.png" alt="Website Design">
+                    <h3>Website Design</h3>
+                    <p>Html, css, javascript</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icones/base-de-donnees.png" alt="Database">
+                    <h3>Database</h3>
+                    <p>Mysql, Mssql server</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icones/science-des-donnees.png" alt="Data Science">
+                    <h3>Data Science</h3>
+                    <p>Python - R</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icones/cadenas.png" alt="Advanced Web App">
+                    <h3>Advanced Web App</h3>
+                    <p>Asp.Net mvc, Web/api, Docker, Hybernate solutions, Python</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icones/icone-mobile.png" alt="Mobile App">
+                    <h3>Mobile App</h3>
+                    <p>Java, Xamarin, c#, React-native</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icones/icons8-r%C3%A9agir-64.png" alt="Front-end Technologies">
+                    <h3>Front-end Technologies</h3>
+                    <p>React.js</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="statistics-section">
+        <div class="wrapper">
+            <h2><u>Statistiques</u></h2>
+            <div class="statistics-container">
+                <div class="stat">
+                    <span class="emoji">📂</span>
+                    <h3>3+</h3>
+                    <p>Projects Done</p>
+                </div>
+                <div class="stat">
+                    <span class="emoji">😊</span>
+                    <h3>10+</h3>
+                    <p>Satisfied Clients</p>
+                </div>
+                <div class="stat">
+                    <span class="emoji">💻</span>
+                    <h3>200k+</h3>
+                    <p>Lines of Code</p>
+                </div>
+                <div class="stat">
+                    <span class="emoji">😃</span>
+                    <h3>18k</h3>
+                    <p>Happy Smile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cta-section">
+        <a href="https://www.linkedin.com/" class="bouton3">Me suivre sur Linkedin</a>
+    </div>
+
+    <section id="contact">
+        <div class="wrapper">
+            <div class="contact-form">
+                <h3>Envoyez moi un message</h3>
+                <form action="mailto:momoprince2022@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" placeholder="Nom" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Sujet" required>
+                    <textarea placeholder="Votre message" required></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Coordonnées</h3>
+                <p><strong>Adresse:</strong><br>Ihsaniye Mah 13097 sk Bandirma/Balikesir, Turkiye</p>
+                <p><strong>Téléphone:</strong><br>+90 506 740 08 62</p>
+                <p><strong>Whatsapp:</strong><br>+90 552 866 78 27</p>
+                <p><strong>Email:</strong><br>momoprince2022@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <p>&copy; 2024 Momo Prince Junior Koudougnon. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+/* LES SELECTEURS GENERAUX */
+/* Reset et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Header */
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+header .wrapper {
+    padding: 0 20px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    color: #077c37 !important;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.orange {
+    color: #ff7a00;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+    margin-left: auto;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 15px;
+    color: #444;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #077c37;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+        background: white;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        padding: 1rem;
+        z-index: 1000;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 15px;
+    }
+}
+
+/* Main Image Section */
+#main-image {
+    background: url('sites-perso/try1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#main-image .wrapper {
+    max-width: 800px;
+}
+
+#main-image h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#main-image span {
+    font-size: 1.5em;
+    border-bottom: 2px solid #077c37;
+    padding-bottom: 5px;
+}
+
+.cta-buttons {
+    margin-top: 30px;
+}
+
+.bouton-1, .bouton-2 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bouton-1 {
+    background-color: #ff7a00;
+    color: #fff;
+}
+
+.bouton-2 {
+    border: 2px solid #ff7a00;
+    color: #fff;
+}
+
+.bouton-1:hover, .bouton-2:hover {
+    background-color: #077c37;
+    color: #fff;
+}
+
+/* About Section */
+#steps {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-content img {
+    flex: 1;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #077c37;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cv-button:hover {
+    background-color: #ff7a00;
+}
+
+/* Services Section */
+#services {
+    padding: 80px 0;
+    background-color: #077c37;
+    color: #fff;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.service-item {
+    background-color: rgba(255,255,255,0.1);
+    padding: 30px;
+
+border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item h5 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Icones Section */
+#icones {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+#icones .service-item {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Part4 Section */
+#part4 {
+    padding: 0;
+    background: 
+        url('sites-perso/p11.jpg') no-repeat left center,
+        url('sites-perso/assembo.png') no-repeat right center fixed;
+    background-size: 50% 100%, 50% 100%;
+    position: relative;
+    height: 60vh;
+}
+
+#part4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.skills-content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 90%;
+    height: 90%;
+}
+
+.skill-item {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.skill-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    filter: brightness(0) invert(1); /* Rend les icônes blanches */
+}
+
+.skill-item h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #ff7a00; /* Garde la couleur orange pour les titres */
+}
+
+.skill-item p {
+    font-size: 0.8em;
+    color: #ffffff; /* Rend le texte blanc */
+}
+
+@media screen and (max-width: 768px) {
+    #part4 {
+        height: auto;
+        min-height: 80vh;
+    }
+
+    .skills-content {
+        position: relative;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .skills-grid {
+        width: 100%;
+    }
+
+    .skill-item {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skill-item {
+        width: 100%;
+    }
+}
+/* Statistics Section */
+.statistics-section {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.statistics-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+    padding: 20px;
+}
+
+.emoji {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.bouton3 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #077c37;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.bouton3:hover {
+    background-color: #ff7a00;
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.contact-form, .contact-info {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #077c37;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff7a00;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .nav-toggle-label {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav ul li {
+        margin: 0;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    .nav-toggle:checked ~ ul {
+        display: flex;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-content img {
+        max-width: 100%;
+    }
+
+    #part4 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .statistics-container {
+        flex-direction: column;
+    }
+
+    .stat {
+        margin-bottom: 30px;
+    }
+
+    #contact .wrapper {
+        flex-direction: column;
+    }
+
+    .contact-form, .contact-info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    #main-image h2 {
+        font-size: 2em;
+    }
+
+    .bouton-1, .bouton-2 {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
